@@ -1,0 +1,27 @@
+[debug] [2017-11-04T08:33:36.208Z] ----------------------------------------------------------------------
+[debug] [2017-11-04T08:33:36.212Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aaa-nb\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2017-11-04T08:33:36.212Z] CLI Version:   3.14.0
+[debug] [2017-11-04T08:33:36.212Z] Platform:      win32
+[debug] [2017-11-04T08:33:36.212Z] Node Version:  v6.11.1
+[debug] [2017-11-04T08:33:36.213Z] Time:          Sat Nov 04 2017 15:33:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-04T08:33:36.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-04T08:33:36.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-04T08:33:36.229Z] > authorizing via signed-in user
+[debug] [2017-11-04T08:33:36.232Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-65571  
+ Sat Nov 04 2017 15:33:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-04T08:33:37.529Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-04T08:33:37.532Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-65571/tokens  
+ Sat Nov 04 2017 15:33:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-04T08:33:38.422Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\aaa-nb\Desktop\work\transaction'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-04T08:33:38.866Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/friendlychat-65571  
+ Sat Nov 04 2017 15:33:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-04T08:33:38.867Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/friendlychat-65571/apiKeys  
+ Sat Nov 04 2017 15:33:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-04T08:33:40.278Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-04T08:33:40.466Z] <<< HTTP RESPONSE 200
+[info] +  functions: stock: http://localhost:5000/friendlychat-65571/us-central1/stock
